@@ -1,96 +1,161 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+    display: flex;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
-    max-width: 1280px;
-    padding: 0 24px;
-    margin: auto;
-  }
-
-.badge{
-    padding: 10px;
-	border-radius: 8px;
-	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
-	background-color: #f6f8fb;
-	border: solid 1.5px #f3f4f7;
-	margin: 10px;
-	width: 355px;
-	max-width: 355px;
-	/* min-width: 355px; */
-	/* min-height: 265px; */
-	overflow-x: hidden;
+  max-width: 1280px;
+  padding: 0 24px;
+  margin: auto;
 }
 
-.badge-p{
-    margin-bottom: 16px;
+.container-2{
+    background: black;
 }
 
-h1{
-    font-size: 30px;
-    font-weight: 400;
+/* Badge blanc rond */
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+  border: solid 1.5px #2d3055;
+  margin: 20px;
+  width: 155px;
+  max-width: 155px;
+  min-width: 155px;
+  min-height: 155px;
+  overflow-x: hidden;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
+.number-rating {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #2d3055;
 }
 
-img{
-    height: 64px;
-    width: 64px;
+.number-reviews {
+  font-size: 10px;
+  margin-bottom: 15px;
+  color: #2d3055;
 }
 
-.star-container{
-    margin-bottom: 16px;
-
+.badge-p:hover {
+  cursor: pointer;
+  color: #6fb6b8;
 }
 
-.stars-outer{
-    position: relative;
-    display: inline-block;
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 64px;
+  width: 64px;
+}
+
+.star-container {
+  margin-bottom: 15px;
+}
+
+.stars-outer {
+  position: relative;
+  display: inline-block;
 }
 
 .stars-inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0px;
-  }
-
-.stars-outer::before{
-    content: "\f005 \f005 \f005 \f005 \f005";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    color: #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0px;
 }
 
-.stars-inner::before{
-    content: "\f005 \f005 \f005 \f005 \f005";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    color: #f8ce0b;
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ccc;
 }
 
-.container-logo-reviewlib{
-    display: flex;
-    align-items: center;
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #f8ce0b;
 }
 
-.img-logo-reviewlib{
-    height: 14px;
-    width: 14px;
-    margin-right: 5px;
+.container-logo-reviewlib {
+  display: flex;
+  align-items: center;
 }
 
-.p-reviewlib{
-    font-size: 10px;
-    color: #2D3055;
-    font-weight: 600;
+.img-logo-reviewlib {
+  height: 14px;
+  width: 14px;
+  margin-right: 5px;
 }
 
-strong{
-    color: #6FB6B8;
+.p-reviewlib {
+  font-size: 10px;
+  color: #2d3055;
+  font-weight: 600;
+}
+
+strong {
+  color: #6fb6b8;
+}
+
+/* Badge blanc rectangle */
+
+.badge-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+  border: solid 1.5px #2d3055;
+  margin: 20px;
+  width: 200px;
+  max-width: 200px;
+  min-width: 200px;
+  /* min-height: 155px; */
+  overflow-x: hidden;
+}
+
+.badge-2-sentence{
+    margin-bottom: 10px;
+}
+
+.badge-2-main {
+  display: flex;
+}
+
+.badge-2-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.badge-2-star-container {
+  flex: 1;
+  margin-right: 5px;
+  background: red;
+}
+
+.badge-2-number-rating{
+    font-size: 35px;
 }
