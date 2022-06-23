@@ -159,3 +159,11 @@ strong {
 .badge-2-number-rating{
     font-size: 35px;
 }
+
+.white{
+    color:white;
+}
+
+.border-white{
+    border: solid 1.5px white;
+}
