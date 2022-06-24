@@ -1,6 +1,11 @@
 body {
-    display: flex;
+  display: flex;
   font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .container {
@@ -9,59 +14,24 @@ body {
   margin: auto;
 }
 
-.container-2{
-    background: black;
-}
-
-/* Badge blanc rond */
-
 .badge {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 10px;
-  border-radius: 50%;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
   border: solid 1.5px #2d3055;
   margin: 20px;
-  width: 155px;
-  max-width: 155px;
-  min-width: 155px;
-  min-height: 155px;
   overflow-x: hidden;
 }
 
-.number-rating {
-  font-size: 25px;
-  margin-bottom: 15px;
-  color: #2d3055;
-}
-
-.number-reviews {
-  font-size: 10px;
-  margin-bottom: 15px;
-  color: #2d3055;
-}
-
-.badge-p:hover {
-  cursor: pointer;
-  color: #6fb6b8;
-}
-
-h1 {
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-img {
-  height: 64px;
-  width: 64px;
+.round-badge {
+  border-radius: 50%;
+  width: 135px;
+  max-width: 135px;
+  min-width: 135px;
+  min-height: 135px;
 }
 
 .star-container {
@@ -95,6 +65,27 @@ img {
   font-weight: 900;
   color: #f8ce0b;
 }
+.number-rating {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #2d3055;
+}
+
+.number-reviews {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #2d3055;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 64px;
+  width: 64px;
+}
 
 .container-logo-reviewlib {
   display: flex;
@@ -117,53 +108,52 @@ strong {
   color: #6fb6b8;
 }
 
-/* Badge blanc rectangle */
-
-.badge-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 10px;
+/* Reactangle badge */
+.rectangle-badge {
   border-radius: 12px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
-  border: solid 1.5px #2d3055;
-  margin: 20px;
   width: 200px;
   max-width: 200px;
   min-width: 200px;
-  /* min-height: 155px; */
-  overflow-x: hidden;
 }
 
-.badge-2-sentence{
-    margin-bottom: 10px;
+.rectangle-badge-sentence {
+  margin-bottom: 15px;
+  color: #2d3055;
 }
 
-.badge-2-main {
+.rectangle-badge-main {
   display: flex;
+  margin-bottom: 15px;
 }
-
-.badge-2-left {
+.rectangle-badge-left {
   display: flex;
   flex-direction: column;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
-.badge-2-star-container {
-  flex: 1;
-  margin-right: 5px;
-  background: red;
+.rectangle-badge-star-container {
+  margin-bottom: 10px;
 }
 
-.badge-2-number-rating{
-    font-size: 35px;
+.rectangle-badge-number-reviews {
+  margin-bottom: 0px;
+  font-size: 12px;
 }
 
-.white{
-    color:white;
+.rectangle-badge-number-rating {
+  font-size: 40px;
+  height: 100%;
+  margin-bottom: 0px;
 }
 
-.border-white{
-    border: solid 1.5px white;
+/* black container */
+.container-2 {
+  background: black;
+}
+.badge-border-white{
+  border: solid 1.5px #ffffff;
+}
+
+.color-white{
+  color: #ffffff;
 }
