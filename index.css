@@ -125,6 +125,7 @@ strong {
 
 .rectangle-badge-main {
   display: flex;
+  align-items: center;
 }
 .rectangle-badge-left {
   display: flex;
