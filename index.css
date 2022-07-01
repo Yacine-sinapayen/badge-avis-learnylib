@@ -28,10 +28,10 @@ h1 {
 
 .round-badge {
   border-radius: 50%;
-  width: 135px;
-  max-width: 135px;
-  min-width: 135px;
-  min-height: 135px;
+  width: 150px;
+  max-width: 150px;
+  min-width: 150px;
+  min-height: 150px;
 }
 
 .star-container {
@@ -66,7 +66,7 @@ h1 {
   color: #f8ce0b;
 }
 .number-rating {
-  font-size: 25px;
+  font-size: 45px;
   margin-bottom: 15px;
   color: #2d3055;
 }
@@ -141,7 +141,7 @@ strong {
 }
 
 .rectangle-badge-number-rating {
-  font-size: 40px;
+  font-size: 45px;
   height: 100%;
   margin-bottom: 0px;
 }
