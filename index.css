@@ -28,14 +28,14 @@ h1 {
 
 .round-badge {
   border-radius: 50%;
-  width: 150px;
-  max-width: 150px;
-  min-width: 150px;
-  min-height: 150px;
+  width: 160px;
+  max-width: 160px;
+  min-width: 160px;
+  min-height: 160px;
 }
 
 .star-container {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .stars-outer {
@@ -67,13 +67,13 @@ h1 {
 }
 .number-rating {
   font-size: 45px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   color: #2d3055;
 }
 
 .number-reviews {
   font-size: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   color: #2d3055;
 }
 
@@ -114,19 +114,21 @@ strong {
   width: 200px;
   max-width: 200px;
   min-width: 200px;
+  min-height: 80px;
+  max-height: 80px;
 }
 
 .rectangle-badge-sentence {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   color: #2d3055;
 }
 
 .rectangle-badge-main {
   display: flex;
-  margin-bottom: 15px;
 }
 .rectangle-badge-left {
   display: flex;
+  align-items: center;
   flex-direction: column;
   margin-right: 10px;
 }
@@ -136,7 +138,7 @@ strong {
 }
 
 .rectangle-badge-number-reviews {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-size: 12px;
 }
 
