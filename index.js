@@ -1,20 +1,14 @@
 // TODO
 // pop me renvoie le dernière élement du tableau spérarer par split('#')
 const code = window.location.href.split('#').pop();
-const decode = atob(code);
-console.log(code)
+const data = atob(code).split(';');
 
-// J'initialise les params de l'url que je veux récupérer
-const urlParams = new URLSearchParams(decode);
-// Url de test : http://127.0.0.1:5500/?rating=4.5&reviews=540&type=blackRect
+const rating = data[0];
 
-// P3JhdGluZz00LjUmcmV2aWV3cz01NDAmdHlwZT13cg==
+const reviews = data[1];
 
-const rating = urlParams.get("rating");
+const type = data[2];
 
-const reviews = urlParams.get("reviews");
-
-const type = urlParams.get("type");
 const elem = {
   wrnd: "<div class='badge round-badge'><span class='number-rating'></span><div class='star-container'><div class='stars-outer'><div class='stars-inner'></div></div></div><p class='number-reviews'></p><div class='container-logo-reviewlib'><img class='img-logo-reviewlib'src='./Assets/logo_reviewlib.svg'alt='Logo-reviewlib'/><p class='p-reviewlib'>REVIEW<strong>LIB</strong></p></div></div>",
 
