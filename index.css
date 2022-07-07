@@ -3,11 +3,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: 400;
-}
-
 .badge {
   display: flex;
   justify-content: center;
@@ -20,12 +15,16 @@ h1 {
   overflow-x: hidden;
 }
 
+.container{
+  background: black;
+}
+
 .round-badge {
   border-radius: 50%;
-  width: 140px;
-  max-width: 140px;
-  min-width: 140px;
-  min-height: 140px;
+  width: 105px;
+  /* max-width: 140px; */
+  /* min-width: 140px; */
+  min-height: 105px;
 }
 
 .star-container {
@@ -60,13 +59,13 @@ h1 {
   color: #f8ce0b;
 }
 .number-rating {
-  font-size: 45px;
+  font-size: 25px;
   margin-bottom: 7px;
   color: #2d3055;
 }
 
 .number-reviews {
-  font-size: 15px;
+  font-size: 12px;
   margin-bottom: 12px;
   color: #2d3055;
 }
@@ -87,13 +86,13 @@ img {
 }
 
 .img-logo-reviewlib {
-  height: 14px;
-  width: 14px;
+  height: 10px;
+  width: 10px;
   margin-right: 5px;
 }
 
 .p-reviewlib {
-  font-size: 10px;
+  font-size: 9px;
   color: #2d3055;
   font-weight: 600;
 }
@@ -105,11 +104,9 @@ strong {
 /* Reactangle badge */
 .rectangle-badge {
   border-radius: 12px;
-  width: 200px;
-  max-width: 200px;
-  min-width: 200px;
-  min-height: 80px;
-  max-height: 80px;
+  width: 150px;
+  max-width: 150px;
+  min-width: 150px;
 }
 
 .rectangle-badge-sentence {
@@ -138,7 +135,7 @@ strong {
 }
 
 .rectangle-badge-number-rating {
-  font-size: 45px;
+  font-size: 25px;
   height: 100%;
   margin-bottom: 0px;
 }
