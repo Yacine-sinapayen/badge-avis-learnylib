@@ -15,10 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-.container{
-  background: black;
-}
-
 .round-badge {
   border-radius: 50%;
   width: 105px;

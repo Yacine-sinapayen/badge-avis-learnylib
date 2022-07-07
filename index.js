@@ -19,8 +19,7 @@ const elem = {
 };
 
 // J'insère mon badge en fonction du params saisi et gestion de l'erreur
-// document.getElementById("container-white").innerHTML = elem[type] || elem.wrnd;
-document.getElementById("container").innerHTML = elem.brct;
+document.getElementById("container").innerHTML = elem[type] || elem.wrnd;
 
 // Nombre total d'étoile
 const starsTotal = 5;
